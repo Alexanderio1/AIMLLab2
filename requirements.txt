@@ -1,0 +1,13 @@
+numpy==2.2.6
+pandas==2.2.3
+scikit-learn==1.8.0
+matplotlib==3.10.8
+tensorflow-cpu==2.20.0 ; sys_platform == "linux" and platform_machine == "x86_64"
+tensorflow==2.20.0 ; sys_platform != "linux" or platform_machine != "x86_64"
+keras==3.12.0
+tensorboard==2.20.0
+# Сервер TensorBoard 2.20 импортирует pkg_resources из setuptools.
+setuptools==80.9.0
+jupyterlab==4.4.9
+ipykernel==6.30.1
+nbconvert==7.16.6
